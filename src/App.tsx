@@ -51,9 +51,9 @@ export default function App() {
               <CompareProvider>
                 <BrowserRouter>
                   <ScrollTop />
-                  <div className="min-h-screen flex flex-col">
+                  <div className="min-h-screen flex flex-col bg-[rgb(var(--bg))]">
                     <Navbar />
-                    <main className="flex-1">
+                    <main className="flex-1 bg-[rgb(var(--bg))]">
                       <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/products" element={<Products />} />
@@ -75,7 +75,7 @@ export default function App() {
                         <Route path="/warranty" element={<Warranty />} />
                         <Route path="/privacy" element={<Privacy />} />
                         <Route path="/terms" element={<Terms />} />
-                        <Route path="/seller" element={<SellerDashboard />} />
+                       
                         <Route path="/delivery" element={<DeliveryDashboard />} />
                         <Route path="/admin" element={<AdminDashboard />} />
                         <Route path="*" element={<NotFound />} />

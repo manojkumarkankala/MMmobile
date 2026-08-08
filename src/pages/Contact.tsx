@@ -13,7 +13,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container-x py-8">
+    <div className="container-x py-8 page-fill">
       <div className="text-center mb-10">
         <h1 className="font-display text-3xl md:text-4xl font-bold text-ink-900 dark:text-white">Get in Touch</h1>
         <p className="text-ink-500 mt-2">We're here to help. Reach out any time.</p>
@@ -21,8 +21,8 @@ export default function Contact() {
 
       <div className="grid lg:grid-cols-3 gap-6 mb-8">
         {[
-          { icon: Phone, title: 'Call Us', value: '+91 90000 00000', href: 'tel:+919000000000', color: 'text-success-600' },
-          { icon: MessageCircle, title: 'WhatsApp', value: 'Chat with us', href: 'https://wa.me/919000000000', color: 'text-success-600' },
+          { icon: Phone, title: 'Call Us', value: '+91 90000 00000', href: 'tel:+918341827908', color: 'text-success-600' },
+          { icon: MessageCircle, title: 'WhatsApp', value: 'Chat with us', href: 'https://wa.me/918341827908', color: 'text-success-600' },
           { icon: Mail, title: 'Email', value: 'hello@mmmobiles.in', href: 'mailto:hello@mmmobiles.in', color: 'text-brand-600' },
         ].map(c => (
           <a key={c.title} href={c.href} target={c.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer" className="card p-6 text-center hover:shadow-card transition group">

@@ -10,7 +10,7 @@ export default function Brands() {
   const countFor = (brandId: string) => all.filter(p => p.brand_id === brandId).length;
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="text-center mb-10">
         <h1 className="font-display text-3xl md:text-4xl font-bold text-ink-900 dark:text-white">Shop by Brand</h1>
         <p className="text-ink-500 mt-2">{brands.length} leading mobile brands available at MMMobiles</p>

@@ -18,7 +18,7 @@ const FAQS = [
 export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <div className="container-x py-8">
+    <div className="container-x py-8 page-fill">
       <div className="text-center mb-10">
         <div className="w-14 h-14 rounded-2xl bg-brand-50 dark:bg-brand-950 text-brand-600 grid place-items-center mx-auto mb-3"><HelpCircle className="w-7 h-7" /></div>
         <h1 className="font-display text-3xl md:text-4xl font-bold text-ink-900 dark:text-white">Frequently Asked Questions</h1>

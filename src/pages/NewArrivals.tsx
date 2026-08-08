@@ -6,7 +6,7 @@ export default function NewArrivals() {
   const { data, loading } = useProducts({ isNew: true, sort: 'newest' });
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="flex items-center gap-3 mb-8">
         <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-success-500 to-brand-600 text-white grid place-items-center">
           <Sparkles className="w-6 h-6" />

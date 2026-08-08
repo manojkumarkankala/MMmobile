@@ -2,7 +2,7 @@ import { Shield, CheckCircle2, Clock, Phone } from 'lucide-react';
 
 export default function Warranty() {
   return (
-    <div className="container-x py-8 max-w-3xl">
+    <div className="container-x py-8 max-w-3xl page-fill">
       <div className="text-center mb-8">
         <div className="w-14 h-14 rounded-2xl bg-success-50 dark:bg-success-950 text-success-600 grid place-items-center mx-auto mb-3"><Shield className="w-7 h-7" /></div>
         <h1 className="font-display text-3xl font-bold text-ink-900 dark:text-white">Warranty Policy</h1>

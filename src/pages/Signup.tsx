@@ -27,7 +27,7 @@ export default function Signup() {
   };
 
   return (
-    <div className="container-x py-12">
+    <div className="container-x py-12 page-fill">
       <div className="max-w-md mx-auto">
         <div className="text-center mb-6">
           <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-600 to-accent-500 text-white grid place-items-center mx-auto mb-3"><UserPlus className="w-7 h-7" /></div>

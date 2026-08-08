@@ -18,7 +18,8 @@
   --border: 40 46 56;
 }
 
-html {
+html, body {
+  min-height: 100%;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
@@ -28,6 +29,13 @@ body {
   background-color: rgb(var(--bg));
   color: rgb(var(--fg));
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(var(--bg));
 }
 
 * {
@@ -41,6 +49,7 @@ body {
 
 @layer components {
   .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .page-fill { @apply min-h-[calc(100vh-theme(spacing.28))] bg-[rgb(var(--bg))]; }
   .card { @apply bg-white dark:bg-ink-900 border border-ink-200/70 dark:border-ink-800 rounded-2xl; }
   .btn { @apply inline-flex items-center justify-center gap-2 font-semibold rounded-xl transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed select-none; }
   .btn-primary { @apply btn bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 shadow-sm hover:shadow-float; }

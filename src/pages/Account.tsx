@@ -24,7 +24,7 @@ export default function Account() {
   ];
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-500 to-accent-500 text-white grid place-items-center font-bold text-xl">{profile?.full_name?.[0]?.toUpperCase() || 'U'}</div>
         <div>

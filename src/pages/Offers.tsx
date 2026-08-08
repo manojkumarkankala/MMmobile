@@ -16,7 +16,7 @@ export default function Offers() {
   ];
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="text-center mb-10">
         <span className="chip bg-accent-100 text-accent-700 dark:bg-accent-900 dark:text-accent-300 mb-3"><Sparkles className="w-3.5 h-3.5" /> Limited Time</span>
         <h1 className="font-display text-3xl md:text-4xl font-bold text-ink-900 dark:text-white">Latest Offers</h1>

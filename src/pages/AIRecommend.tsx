@@ -58,7 +58,7 @@ export default function AIRecommend() {
   };
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="text-center mb-10">
         <span className="chip bg-brand-100 text-brand-700 dark:bg-brand-900 dark:text-brand-300 mb-3">
           <Sparkles className="w-3.5 h-3.5" /> AI Powered

@@ -3,7 +3,7 @@ import { MapPin, Phone, MessageCircle, Mail, Clock, Sparkles, Shield, Truck } fr
 
 export default function About() {
   return (
-    <div className="container-x py-8">
+    <div className="container-x py-8 page-fill">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-12">
         <span className="chip bg-brand-100 text-brand-700 dark:bg-brand-900 dark:text-brand-300 mb-3"><Sparkles className="w-3.5 h-3.5" /> Our Story</span>
         <h1 className="font-display text-3xl md:text-5xl font-bold text-ink-900 dark:text-white mb-4">About MMMobiles</h1>
@@ -59,7 +59,7 @@ export default function About() {
             </div>
             <div className="flex gap-2 mt-5">
               <a href="https://maps.app.goo.gl/MRg2vJMNbMJmWoBq8" target="_blank" rel="noopener noreferrer" className="btn-primary">Google Maps</a>
-              <a href="https://wa.me/919000000000" target="_blank" rel="noopener noreferrer" className="btn bg-success-600 hover:bg-success-700 text-white"><MessageCircle className="w-4 h-4" /> WhatsApp</a>
+              <a href="https://wa.me/918341827908" target="_blank" rel="noopener noreferrer" className="btn bg-success-600 hover:bg-success-700 text-white"><MessageCircle className="w-4 h-4" /> WhatsApp</a>
             </div>
           </div>
           <div className="bg-gradient-to-br from-brand-100 to-accent-100 dark:from-ink-800 dark:to-ink-900 min-h-[240px] grid place-items-center">

@@ -11,7 +11,7 @@ export default function Wishlist() {
   const { toast } = useToast();
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-11 h-11 rounded-2xl bg-error-500 text-white grid place-items-center"><Heart className="w-5 h-5 fill-current" /></div>
         <div>

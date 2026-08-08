@@ -117,7 +117,7 @@ export default function SellerDashboard() {
   };
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
         <div>
           <h1 className="font-display text-2xl md:text-3xl font-bold text-ink-900 dark:text-white">Seller Dashboard</h1>

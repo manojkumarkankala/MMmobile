@@ -14,7 +14,7 @@ export default function Compare() {
   const verdict = items.length >= 2 ? aiCompare(items) : null;
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-12 h-12 rounded-2xl bg-brand-600 text-white grid place-items-center">
           <GitCompare className="w-6 h-6" />

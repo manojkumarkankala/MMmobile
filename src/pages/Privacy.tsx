@@ -1,6 +1,6 @@
 export default function Privacy() {
   return (
-    <div className="container-x py-8 max-w-3xl">
+    <div className="container-x py-8 max-w-3xl page-fill">
       <h1 className="font-display text-3xl font-bold mb-6">Privacy Policy</h1>
       <div className="card p-6 space-y-4 text-sm text-ink-700 dark:text-ink-200 leading-relaxed">
         <p>At MMMobiles, we take your privacy seriously. This policy explains how we collect, use, and protect your personal information.</p>

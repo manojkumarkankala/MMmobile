@@ -40,7 +40,7 @@ export default function Cart() {
   }
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <h1 className="font-display text-2xl md:text-3xl font-bold text-ink-900 dark:text-white mb-6">Shopping Cart ({count})</h1>
       <div className="grid lg:grid-cols-3 gap-6">
         {/* Items */}

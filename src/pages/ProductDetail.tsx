@@ -88,7 +88,7 @@ export default function ProductDetail() {
   };
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       <nav className="flex items-center gap-1.5 text-sm text-ink-500 mb-5 overflow-x-auto no-scrollbar">
         <Link to="/" className="hover:text-brand-600 shrink-0">Home</Link>
         <ChevronRight className="w-3.5 h-3.5 shrink-0" />

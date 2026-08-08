@@ -78,10 +78,9 @@ export function Navbar() {
             <span className="sm:hidden">Choutuppal, TS</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:+919000000000" className="flex items-center gap-1.5 hover:text-white transition">
-              <Phone className="w-3.5 h-3.5" /> <span className="hidden sm:inline">+91 90000 00000</span>
+            <a href="tel:+918341827908" className="flex items-center gap-1.5 hover:text-white transition">
+              <Phone className="w-3.5 h-3.5" /> <span className="hidden sm:inline">+91 8341827908</span>
             </a>
-            <Link to="/seller" className="hidden sm:inline hover:text-white transition">Seller</Link>
             <Link to="/delivery" className="hidden sm:inline hover:text-white transition">Delivery</Link>
             <Link to="/admin" className="hidden sm:inline hover:text-white transition">Admin</Link>
           </div>
@@ -96,7 +95,7 @@ export function Navbar() {
               <div className="w-9 h-9 rounded-xl bg-brand-600 text-white grid place-items-center font-extrabold font-display text-sm">MM</div>
               <div className="hidden sm:block">
                 <p className="font-display font-extrabold text-lg leading-none text-ink-900 dark:text-white">MMMobiles</p>
-                <p className="text-[10px] text-ink-500 dark:text-ink-400 leading-none">AI Mobile Store</p>
+                <p className="text-[10px] text-ink-500 dark:text-ink-400 leading-none">Mobile Store</p>
               </div>
             </Link>
 

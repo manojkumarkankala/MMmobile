@@ -46,7 +46,7 @@ export default function Products() {
   };
 
   return (
-    <div className="container-x py-6">
+    <div className="container-x py-6 page-fill">
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1.5 text-sm text-ink-500 mb-4">
         <Link to="/" className="hover:text-brand-600">Home</Link>
